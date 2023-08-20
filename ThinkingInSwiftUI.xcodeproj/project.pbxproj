@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CBCF022A921D2E005A6433 /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */; };
+		36CBCF042A921D2E005A6433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF032A921D2E005A6433 /* ContentView.swift */; };
+		36CBCF062A921D2F005A6433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CBCF052A921D2F005A6433 /* Assets.xcassets */; };
+		36CBCF092A921D2F005A6433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CBCF082A921D2F005A6433 /* Preview Assets.xcassets */; };
+		36CBCF1B2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF0F2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift */; };
+		36CBCF1C2A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF102A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift */; };
+		36CBCF1D2A921D55005A6433 /* 08 Chapter 2 - Binding without property wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF112A921D55005A6433 /* 08 Chapter 2 - Binding without property wrappers.swift */; };
+		36CBCF1E2A921D55005A6433 /* 06 Chapter 2 - ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF122A921D55005A6433 /* 06 Chapter 2 - ForEach.swift */; };
+		36CBCF1F2A921D55005A6433 /* 03 Chapter 2 - Global State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF132A921D55005A6433 /* 03 Chapter 2 - Global State.swift */; };
+		36CBCF202A921D55005A6433 /* 01 Chapter 1 - View Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF142A921D55005A6433 /* 01 Chapter 1 - View Types.swift */; };
+		36CBCF212A921D55005A6433 /* 04 Chapter 2 - Local State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF152A921D55005A6433 /* 04 Chapter 2 - Local State.swift */; };
+		36CBCF222A921D55005A6433 /* 05 Chapter 2 - Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF162A921D55005A6433 /* 05 Chapter 2 - Binding.swift */; };
+		36CBCF232A921D55005A6433 /* 02 Chapter 1 - Order Matters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF172A921D55005A6433 /* 02 Chapter 1 - Order Matters.swift */; };
+		36CBCF242A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF182A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift */; };
+		36CBCF252A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF192A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift */; };
+		36CBCF262A921D55005A6433 /* 11 Chapter 2 - ObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF1A2A921D55005A6433 /* 11 Chapter 2 - ObservedObject.swift */; };
+		36CBCF282A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF272A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift */; };
+		36CBCF2A2A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF292A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift */; };
+		36CBCF2C2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF2B2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift */; };
+		36CBCF2E2A9229BD005A6433 /* 16 Chapter 3 - Reading Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF2D2A9229BD005A6433 /* 16 Chapter 3 - Reading Environment.swift */; };
+		36CBCF302A922D5F005A6433 /* 17 Chapter 3 - Custom Environment Values 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF2F2A922D5F005A6433 /* 17 Chapter 3 - Custom Environment Values 1.swift */; };
+		36CBCF322A922E80005A6433 /* 18 Chapter 3 - Custom Environment Values 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF312A922E80005A6433 /* 18 Chapter 3 - Custom Environment Values 2.swift */; };
+		36CBCF342A92321C005A6433 /* 19 Chapter 3 - Custom Environment Values 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF332A92321C005A6433 /* 19 Chapter 3 - Custom Environment Values 3.swift */; };
+		36CBCF362A92340A005A6433 /* 20 Chapter 3 - Environment Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF352A92340A005A6433 /* 20 Chapter 3 - Environment Object.swift */; };
+		36CBCF382A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF372A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift */; };
+		36CBCF3A2A9237C5005A6433 /* 21 Chapter 3 - Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF392A9237C5005A6433 /* 21 Chapter 3 - Preference.swift */; };
+		36CBCF3C2A9238A0005A6433 /* 22 Chapter 3 - Custom Preference 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF3B2A92389F005A6433 /* 22 Chapter 3 - Custom Preference 1.swift */; };
+		36CBCF3E2A9246A6005A6433 /* 23 Chapter 3 - Custom Preference 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF3D2A9246A6005A6433 /* 23 Chapter 3 - Custom Preference 2.swift */; };
+		36CBCF402A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF3F2A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift */; };
+		36CBCF422A92717E005A6433 /* 25 Chapter 4 - Layout (Actual and Proposed Sizes).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF412A92717E005A6433 /* 25 Chapter 4 - Layout (Actual and Proposed Sizes).swift */; };
+		36CBCF442A92760C005A6433 /* 28 Chapter 4 - Layout (Rotated Shape).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF432A92760C005A6433 /* 28 Chapter 4 - Layout (Rotated Shape).swift */; };
+		36CBCF462A927A23005A6433 /* 27 Chapter 4 - Layouot (Shape).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF452A927A23005A6433 /* 27 Chapter 4 - Layouot (Shape).swift */; };
+		36CBCF482A927BB9005A6433 /* xx Chapter x - Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF472A927BB9005A6433 /* xx Chapter x - Template.swift */; };
+		36CBCF4A2A927E9E005A6433 /* 29 Chapter 4 - Layout (Image).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF492A927E9E005A6433 /* 29 Chapter 4 - Layout (Image).swift */; };
+		36CBCF4C2A928848005A6433 /* 30 Chapter 4 - Layout (Text).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF4B2A928848005A6433 /* 30 Chapter 4 - Layout (Text).swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
+		36CBCF032A921D2E005A6433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36CBCF052A921D2F005A6433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36CBCF082A921D2F005A6433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36CBCF0F2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "09 Chapter 2 - State & Binding 1.swift"; sourceTree = "<group>"; };
+		36CBCF102A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "10 Chapter 2 - State & Binding 2.swift"; sourceTree = "<group>"; };
+		36CBCF112A921D55005A6433 /* 08 Chapter 2 - Binding without property wrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "08 Chapter 2 - Binding without property wrappers.swift"; sourceTree = "<group>"; };
+		36CBCF122A921D55005A6433 /* 06 Chapter 2 - ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "06 Chapter 2 - ForEach.swift"; sourceTree = "<group>"; };
+		36CBCF132A921D55005A6433 /* 03 Chapter 2 - Global State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "03 Chapter 2 - Global State.swift"; sourceTree = "<group>"; };
+		36CBCF142A921D55005A6433 /* 01 Chapter 1 - View Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "01 Chapter 1 - View Types.swift"; sourceTree = "<group>"; };
+		36CBCF152A921D55005A6433 /* 04 Chapter 2 - Local State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "04 Chapter 2 - Local State.swift"; sourceTree = "<group>"; };
+		36CBCF162A921D55005A6433 /* 05 Chapter 2 - Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05 Chapter 2 - Binding.swift"; sourceTree = "<group>"; };
+		36CBCF172A921D55005A6433 /* 02 Chapter 1 - Order Matters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "02 Chapter 1 - Order Matters.swift"; sourceTree = "<group>"; };
+		36CBCF182A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07 Chapter 2 - ViewBuilders.swift"; sourceTree = "<group>"; };
+		36CBCF192A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "12 Chapter 2 - Exercise (PhotoList).swift"; sourceTree = "<group>"; };
+		36CBCF1A2A921D55005A6433 /* 11 Chapter 2 - ObservedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11 Chapter 2 - ObservedObject.swift"; sourceTree = "<group>"; };
+		36CBCF272A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13 Chapter 3 - Environment Modifier 1.swift"; sourceTree = "<group>"; };
+		36CBCF292A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14 Chapter 3 - Environment Modifier 2.swift"; sourceTree = "<group>"; };
+		36CBCF2B2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15 Chapter 3 - Environment Modifier 3.swift"; sourceTree = "<group>"; };
+		36CBCF2D2A9229BD005A6433 /* 16 Chapter 3 - Reading Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16 Chapter 3 - Reading Environment.swift"; sourceTree = "<group>"; };
+		36CBCF2F2A922D5F005A6433 /* 17 Chapter 3 - Custom Environment Values 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17 Chapter 3 - Custom Environment Values 1.swift"; sourceTree = "<group>"; };
+		36CBCF312A922E80005A6433 /* 18 Chapter 3 - Custom Environment Values 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18 Chapter 3 - Custom Environment Values 2.swift"; sourceTree = "<group>"; };
+		36CBCF332A92321C005A6433 /* 19 Chapter 3 - Custom Environment Values 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19 Chapter 3 - Custom Environment Values 3.swift"; sourceTree = "<group>"; };
+		36CBCF352A92340A005A6433 /* 20 Chapter 3 - Environment Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20 Chapter 3 - Environment Object.swift"; sourceTree = "<group>"; };
+		36CBCF372A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26 Chapter 4 - Layout (Path).swift"; sourceTree = "<group>"; };
+		36CBCF392A9237C5005A6433 /* 21 Chapter 3 - Preference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21 Chapter 3 - Preference.swift"; sourceTree = "<group>"; };
+		36CBCF3B2A92389F005A6433 /* 22 Chapter 3 - Custom Preference 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22 Chapter 3 - Custom Preference 1.swift"; sourceTree = "<group>"; };
+		36CBCF3D2A9246A6005A6433 /* 23 Chapter 3 - Custom Preference 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23 Chapter 3 - Custom Preference 2.swift"; sourceTree = "<group>"; };
+		36CBCF3F2A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24 Chapter 3 - Exercise (Knob Color).swift"; sourceTree = "<group>"; };
+		36CBCF412A92717E005A6433 /* 25 Chapter 4 - Layout (Actual and Proposed Sizes).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25 Chapter 4 - Layout (Actual and Proposed Sizes).swift"; sourceTree = "<group>"; };
+		36CBCF432A92760C005A6433 /* 28 Chapter 4 - Layout (Rotated Shape).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28 Chapter 4 - Layout (Rotated Shape).swift"; sourceTree = "<group>"; };
+		36CBCF452A927A23005A6433 /* 27 Chapter 4 - Layouot (Shape).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27 Chapter 4 - Layouot (Shape).swift"; sourceTree = "<group>"; };
+		36CBCF472A927BB9005A6433 /* xx Chapter x - Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "xx Chapter x - Template.swift"; sourceTree = "<group>"; };
+		36CBCF492A927E9E005A6433 /* 29 Chapter 4 - Layout (Image).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "29 Chapter 4 - Layout (Image).swift"; sourceTree = "<group>"; };
+		36CBCF4B2A928848005A6433 /* 30 Chapter 4 - Layout (Text).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30 Chapter 4 - Layout (Text).swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CBCEFB2A921D2E005A6433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CBCEF52A921D2E005A6433 = {
+			isa = PBXGroup;
+			children = (
+				36CBCF002A921D2E005A6433 /* ThinkingInSwiftUI */,
+				36CBCEFF2A921D2E005A6433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CBCEFF2A921D2E005A6433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CBCF002A921D2E005A6433 /* ThinkingInSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */,
+				36CBCF032A921D2E005A6433 /* ContentView.swift */,
+				36CBCF142A921D55005A6433 /* 01 Chapter 1 - View Types.swift */,
+				36CBCF172A921D55005A6433 /* 02 Chapter 1 - Order Matters.swift */,
+				36CBCF132A921D55005A6433 /* 03 Chapter 2 - Global State.swift */,
+				36CBCF152A921D55005A6433 /* 04 Chapter 2 - Local State.swift */,
+				36CBCF162A921D55005A6433 /* 05 Chapter 2 - Binding.swift */,
+				36CBCF122A921D55005A6433 /* 06 Chapter 2 - ForEach.swift */,
+				36CBCF182A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift */,
+				36CBCF112A921D55005A6433 /* 08 Chapter 2 - Binding without property wrappers.swift */,
+				36CBCF0F2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift */,
+				36CBCF102A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift */,
+				36CBCF1A2A921D55005A6433 /* 11 Chapter 2 - ObservedObject.swift */,
+				36CBCF192A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift */,
+				36CBCF272A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift */,
+				36CBCF292A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift */,
+				36CBCF2B2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift */,
+				36CBCF2D2A9229BD005A6433 /* 16 Chapter 3 - Reading Environment.swift */,
+				36CBCF2F2A922D5F005A6433 /* 17 Chapter 3 - Custom Environment Values 1.swift */,
+				36CBCF312A922E80005A6433 /* 18 Chapter 3 - Custom Environment Values 2.swift */,
+				36CBCF332A92321C005A6433 /* 19 Chapter 3 - Custom Environment Values 3.swift */,
+				36CBCF352A92340A005A6433 /* 20 Chapter 3 - Environment Object.swift */,
+				36CBCF392A9237C5005A6433 /* 21 Chapter 3 - Preference.swift */,
+				36CBCF3B2A92389F005A6433 /* 22 Chapter 3 - Custom Preference 1.swift */,
+				36CBCF3D2A9246A6005A6433 /* 23 Chapter 3 - Custom Preference 2.swift */,
+				36CBCF3F2A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift */,
+				36CBCF412A92717E005A6433 /* 25 Chapter 4 - Layout (Actual and Proposed Sizes).swift */,
+				36CBCF372A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift */,
+				36CBCF452A927A23005A6433 /* 27 Chapter 4 - Layouot (Shape).swift */,
+				36CBCF432A92760C005A6433 /* 28 Chapter 4 - Layout (Rotated Shape).swift */,
+				36CBCF492A927E9E005A6433 /* 29 Chapter 4 - Layout (Image).swift */,
+				36CBCF4B2A928848005A6433 /* 30 Chapter 4 - Layout (Text).swift */,
+				36CBCF472A927BB9005A6433 /* xx Chapter x - Template.swift */,
+				36CBCF052A921D2F005A6433 /* Assets.xcassets */,
+				36CBCF072A921D2F005A6433 /* Preview Content */,
+			);
+			path = ThinkingInSwiftUI;
+			sourceTree = "<group>";
+		};
+		36CBCF072A921D2F005A6433 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36CBCF082A921D2F005A6433 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36CBCEFD2A921D2E005A6433 /* ThinkingInSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CBCF0C2A921D2F005A6433 /* Build configuration list for PBXNativeTarget "ThinkingInSwiftUI" */;
+			buildPhases = (
+				36CBCEFA2A921D2E005A6433 /* Sources */,
+				36CBCEFB2A921D2E005A6433 /* Frameworks */,
+				36CBCEFC2A921D2E005A6433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkingInSwiftUI;
+			productName = ThinkingInSwiftUI;
+			productReference = 36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36CBCEF62A921D2E005A6433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					36CBCEFD2A921D2E005A6433 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 36CBCEF92A921D2E005A6433 /* Build configuration list for PBXProject "ThinkingInSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36CBCEF52A921D2E005A6433;
+			productRefGroup = 36CBCEFF2A921D2E005A6433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36CBCEFD2A921D2E005A6433 /* ThinkingInSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CBCEFC2A921D2E005A6433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CBCF092A921D2F005A6433 /* Preview Assets.xcassets in Resources */,
+				36CBCF062A921D2F005A6433 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CBCEFA2A921D2E005A6433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CBCF422A92717E005A6433 /* 25 Chapter 4 - Layout (Actual and Proposed Sizes).swift in Sources */,
+				36CBCF1F2A921D55005A6433 /* 03 Chapter 2 - Global State.swift in Sources */,
+				36CBCF232A921D55005A6433 /* 02 Chapter 1 - Order Matters.swift in Sources */,
+				36CBCF2E2A9229BD005A6433 /* 16 Chapter 3 - Reading Environment.swift in Sources */,
+				36CBCF262A921D55005A6433 /* 11 Chapter 2 - ObservedObject.swift in Sources */,
+				36CBCF3E2A9246A6005A6433 /* 23 Chapter 3 - Custom Preference 2.swift in Sources */,
+				36CBCF1E2A921D55005A6433 /* 06 Chapter 2 - ForEach.swift in Sources */,
+				36CBCF482A927BB9005A6433 /* xx Chapter x - Template.swift in Sources */,
+				36CBCF222A921D55005A6433 /* 05 Chapter 2 - Binding.swift in Sources */,
+				36CBCF302A922D5F005A6433 /* 17 Chapter 3 - Custom Environment Values 1.swift in Sources */,
+				36CBCF342A92321C005A6433 /* 19 Chapter 3 - Custom Environment Values 3.swift in Sources */,
+				36CBCF382A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift in Sources */,
+				36CBCF042A921D2E005A6433 /* ContentView.swift in Sources */,
+				36CBCF282A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift in Sources */,
+				36CBCF3C2A9238A0005A6433 /* 22 Chapter 3 - Custom Preference 1.swift in Sources */,
+				36CBCF442A92760C005A6433 /* 28 Chapter 4 - Layout (Rotated Shape).swift in Sources */,
+				36CBCF4C2A928848005A6433 /* 30 Chapter 4 - Layout (Text).swift in Sources */,
+				36CBCF4A2A927E9E005A6433 /* 29 Chapter 4 - Layout (Image).swift in Sources */,
+				36CBCF242A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift in Sources */,
+				36CBCF2A2A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift in Sources */,
+				36CBCF362A92340A005A6433 /* 20 Chapter 3 - Environment Object.swift in Sources */,
+				36CBCF1D2A921D55005A6433 /* 08 Chapter 2 - Binding without property wrappers.swift in Sources */,
+				36CBCF462A927A23005A6433 /* 27 Chapter 4 - Layouot (Shape).swift in Sources */,
+				36CBCF022A921D2E005A6433 /* ThinkingInSwiftUIApp.swift in Sources */,
+				36CBCF3A2A9237C5005A6433 /* 21 Chapter 3 - Preference.swift in Sources */,
+				36CBCF402A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift in Sources */,
+				36CBCF212A921D55005A6433 /* 04 Chapter 2 - Local State.swift in Sources */,
+				36CBCF1B2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift in Sources */,
+				36CBCF202A921D55005A6433 /* 01 Chapter 1 - View Types.swift in Sources */,
+				36CBCF252A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift in Sources */,
+				36CBCF2C2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift in Sources */,
+				36CBCF1C2A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift in Sources */,
+				36CBCF322A922E80005A6433 /* 18 Chapter 3 - Custom Environment Values 2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36CBCF0A2A921D2F005A6433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36CBCF0B2A921D2F005A6433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CBCF0D2A921D2F005A6433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThinkingInSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.ThinkingInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36CBCF0E2A921D2F005A6433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThinkingInSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.ThinkingInSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CBCEF92A921D2E005A6433 /* Build configuration list for PBXProject "ThinkingInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CBCF0A2A921D2F005A6433 /* Debug */,
+				36CBCF0B2A921D2F005A6433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CBCF0C2A921D2F005A6433 /* Build configuration list for PBXNativeTarget "ThinkingInSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CBCF0D2A921D2F005A6433 /* Debug */,
+				36CBCF0E2A921D2F005A6433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36CBCEF62A921D2E005A6433 /* Project object */;
+}
