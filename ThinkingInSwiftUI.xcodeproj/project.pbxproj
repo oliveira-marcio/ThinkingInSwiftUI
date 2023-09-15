@@ -11,7 +11,7 @@
 		36193DF32AA8F30F006CB875 /* 48 Chapter 5 - Geometry Reader 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36193DF22AA8F30F006CB875 /* 48 Chapter 5 - Geometry Reader 2.swift */; };
 		36193DF52AA8FDB0006CB875 /* 49 Chapter 5 - Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36193DF42AA8FDB0006CB875 /* 49 Chapter 5 - Anchors.swift */; };
 		36193DF72AA90BB5006CB875 /* 50 Chapter 5 - Custom Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36193DF62AA90BB5006CB875 /* 50 Chapter 5 - Custom Layout.swift */; };
-		36193DF92AA90E6F006CB875 /* xx Chapter x - Template copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36193DF82AA90E6F006CB875 /* xx Chapter x - Template copy.swift */; };
+		36193DF92AA90E6F006CB875 /* 60 Chapter 6 - Exercise (Path Animation).swift in Sources */ = {isa = PBXBuildFile; fileRef = 36193DF82AA90E6F006CB875 /* 60 Chapter 6 - Exercise (Path Animation).swift */; };
 		3635708C2A97BB72009E80BB /* 39 Chapter 4 - Slack (Alignment).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635708B2A97BB72009E80BB /* 39 Chapter 4 - Slack (Alignment).swift */; };
 		3635708E2A97BD3E009E80BB /* 40 Chapter 4 - Slack (Custom Alignment).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635708D2A97BD3E009E80BB /* 40 Chapter 4 - Slack (Custom Alignment).swift */; };
 		363570902A97C1DC009E80BB /* 41 Chapter 4 - Organizing Layout (Extensions).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635708F2A97C1DC009E80BB /* 41 Chapter 4 - Organizing Layout (Extensions).swift */; };
@@ -35,6 +35,7 @@
 		3686E23E2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E23D2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift */; };
 		3686E2402AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E23F2AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift */; };
 		3686E2422AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E2412AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift */; };
+		3686E24A2AB3DC3D00E2702C /* 59 Chapter 6 - Exercise (Bounce Animation).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E2492AB3DC3D00E2702C /* 59 Chapter 6 - Exercise (Bounce Animation).swift */; };
 		36CBCF022A921D2E005A6433 /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */; };
 		36CBCF062A921D2F005A6433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CBCF052A921D2F005A6433 /* Assets.xcassets */; };
 		36CBCF092A921D2F005A6433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CBCF082A921D2F005A6433 /* Preview Assets.xcassets */; };
@@ -76,7 +77,7 @@
 		36193DF22AA8F30F006CB875 /* 48 Chapter 5 - Geometry Reader 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "48 Chapter 5 - Geometry Reader 2.swift"; sourceTree = "<group>"; };
 		36193DF42AA8FDB0006CB875 /* 49 Chapter 5 - Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49 Chapter 5 - Anchors.swift"; sourceTree = "<group>"; };
 		36193DF62AA90BB5006CB875 /* 50 Chapter 5 - Custom Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50 Chapter 5 - Custom Layout.swift"; sourceTree = "<group>"; };
-		36193DF82AA90E6F006CB875 /* xx Chapter x - Template copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "xx Chapter x - Template copy.swift"; sourceTree = "<group>"; };
+		36193DF82AA90E6F006CB875 /* 60 Chapter 6 - Exercise (Path Animation).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "60 Chapter 6 - Exercise (Path Animation).swift"; sourceTree = "<group>"; };
 		3635708B2A97BB72009E80BB /* 39 Chapter 4 - Slack (Alignment).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39 Chapter 4 - Slack (Alignment).swift"; sourceTree = "<group>"; };
 		3635708D2A97BD3E009E80BB /* 40 Chapter 4 - Slack (Custom Alignment).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "40 Chapter 4 - Slack (Custom Alignment).swift"; sourceTree = "<group>"; };
 		3635708F2A97C1DC009E80BB /* 41 Chapter 4 - Organizing Layout (Extensions).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "41 Chapter 4 - Organizing Layout (Extensions).swift"; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		3686E23D2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "56 Chapter 6 - Explicit Animations.swift"; sourceTree = "<group>"; };
 		3686E23F2AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "57 Chapter 6 - Custom Animation.swift"; sourceTree = "<group>"; };
 		3686E2412AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58 Chapter 6 - Custom Transition.swift"; sourceTree = "<group>"; };
+		3686E2492AB3DC3D00E2702C /* 59 Chapter 6 - Exercise (Bounce Animation).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "59 Chapter 6 - Exercise (Bounce Animation).swift"; sourceTree = "<group>"; };
 		36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
 		36CBCF052A921D2F005A6433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -244,6 +246,8 @@
 				3686E23D2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift */,
 				3686E23F2AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift */,
 				3686E2412AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift */,
+				3686E2492AB3DC3D00E2702C /* 59 Chapter 6 - Exercise (Bounce Animation).swift */,
+				36193DF82AA90E6F006CB875 /* 60 Chapter 6 - Exercise (Path Animation).swift */,
 			);
 			path = "Chapter 6 - Animations";
 			sourceTree = "<group>";
@@ -274,7 +278,6 @@
 				3686E2462AB3DA3B00E2702C /* Chapter 4 - Layout */,
 				3686E2472AB3DA4F00E2702C /* Chapter 5 - Custom Layout */,
 				3686E2482AB3DA7400E2702C /* Chapter 6 - Animations */,
-				36193DF82AA90E6F006CB875 /* xx Chapter x - Template copy.swift */,
 				36CBCF052A921D2F005A6433 /* Assets.xcassets */,
 				36CBCF072A921D2F005A6433 /* Preview Content */,
 			);
@@ -389,6 +392,7 @@
 				36193DF32AA8F30F006CB875 /* 48 Chapter 5 - Geometry Reader 2.swift in Sources */,
 				36CBCF242A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift in Sources */,
 				367596272A95686E0084CA92 /* 34 Chapter 4 - Padding.swift in Sources */,
+				3686E24A2AB3DC3D00E2702C /* 59 Chapter 6 - Exercise (Bounce Animation).swift in Sources */,
 				3686E2422AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift in Sources */,
 				36CBCF2A2A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift in Sources */,
 				3675962B2A956F3B0084CA92 /* 36 Chapter 4 - Clipping and Mask.swift in Sources */,
@@ -410,7 +414,7 @@
 				3636BDEA2AB3B28000EFDB2C /* 52 Chapter 6 - Implicit Animations.swift in Sources */,
 				36CBCF212A921D55005A6433 /* 04 Chapter 2 - Local State.swift in Sources */,
 				36CBCF1B2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift in Sources */,
-				36193DF92AA90E6F006CB875 /* xx Chapter x - Template copy.swift in Sources */,
+				36193DF92AA90E6F006CB875 /* 60 Chapter 6 - Exercise (Path Animation).swift in Sources */,
 				36CBCF202A921D55005A6433 /* 01 Chapter 1 - View Types.swift in Sources */,
 				36CBCF252A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift in Sources */,
 				36193DF52AA8FDB0006CB875 /* 49 Chapter 5 - Anchors.swift in Sources */,
