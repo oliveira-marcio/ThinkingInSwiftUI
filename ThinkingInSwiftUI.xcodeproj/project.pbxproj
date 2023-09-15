@@ -20,6 +20,8 @@
 		363570962A97C57F009E80BB /* 44 Chapter 4 - Button Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363570952A97C57F009E80BB /* 44 Chapter 4 - Button Style.swift */; };
 		363570982A97C7F9009E80BB /* 45 Chapter 4 - Exercise (Collapsible HStack).swift in Sources */ = {isa = PBXBuildFile; fileRef = 363570972A97C7F9009E80BB /* 45 Chapter 4 - Exercise (Collapsible HStack).swift */; };
 		3635709A2A97D2A4009E80BB /* 46 Chapter 4 - Exercise (Badge View).swift in Sources */ = {isa = PBXBuildFile; fileRef = 363570992A97D2A4009E80BB /* 46 Chapter 4 - Exercise (Badge View).swift */; };
+		3636BDEA2AB3B28000EFDB2C /* 52 Chapter 6 - Implicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636BDE92AB3B28000EFDB2C /* 52 Chapter 6 - Implicit Animations.swift */; };
+		3636BDEC2AB3B63900EFDB2C /* 53 Chapter 6 - Infinite Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3636BDEB2AB3B63900EFDB2C /* 53 Chapter 6 - Infinite Animation.swift */; };
 		367596212A9555990084CA92 /* 33 Chapter 4 - Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367596202A9555990084CA92 /* 33 Chapter 4 - Offset.swift */; };
 		367596232A9563D70084CA92 /* 32 Chapter 4 - Frame (Ideal Size).swift in Sources */ = {isa = PBXBuildFile; fileRef = 367596222A9563D70084CA92 /* 32 Chapter 4 - Frame (Ideal Size).swift */; };
 		367596252A95657D0084CA92 /* 51 Chapter 5 - Exercise (Table View).swift in Sources */ = {isa = PBXBuildFile; fileRef = 367596242A95657D0084CA92 /* 51 Chapter 5 - Exercise (Table View).swift */; };
@@ -28,8 +30,12 @@
 		3675962B2A956F3B0084CA92 /* 36 Chapter 4 - Clipping and Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675962A2A956F3B0084CA92 /* 36 Chapter 4 - Clipping and Mask.swift */; };
 		3675962D2A9578AE0084CA92 /* 37 Chapter 4 - Stack (Layout).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675962C2A9578AE0084CA92 /* 37 Chapter 4 - Stack (Layout).swift */; };
 		3675962F2A957FB90084CA92 /* 38 Chapter 4 - Stack (Layout Priority).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3675962E2A957FB90084CA92 /* 38 Chapter 4 - Stack (Layout Priority).swift */; };
+		3686E23A2AB3B7D000E2702C /* 54 Chapter 6 - Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E2392AB3B7D000E2702C /* 54 Chapter 6 - Transitions.swift */; };
+		3686E23C2AB3C4F800E2702C /* 55 Chapter 6 - Animation Curves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E23B2AB3C4F800E2702C /* 55 Chapter 6 - Animation Curves.swift */; };
+		3686E23E2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E23D2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift */; };
+		3686E2402AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E23F2AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift */; };
+		3686E2422AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3686E2412AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift */; };
 		36CBCF022A921D2E005A6433 /* ThinkingInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */; };
-		36CBCF042A921D2E005A6433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF032A921D2E005A6433 /* ContentView.swift */; };
 		36CBCF062A921D2F005A6433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CBCF052A921D2F005A6433 /* Assets.xcassets */; };
 		36CBCF092A921D2F005A6433 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CBCF082A921D2F005A6433 /* Preview Assets.xcassets */; };
 		36CBCF1B2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CBCF0F2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift */; };
@@ -79,6 +85,8 @@
 		363570952A97C57F009E80BB /* 44 Chapter 4 - Button Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "44 Chapter 4 - Button Style.swift"; sourceTree = "<group>"; };
 		363570972A97C7F9009E80BB /* 45 Chapter 4 - Exercise (Collapsible HStack).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "45 Chapter 4 - Exercise (Collapsible HStack).swift"; sourceTree = "<group>"; };
 		363570992A97D2A4009E80BB /* 46 Chapter 4 - Exercise (Badge View).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46 Chapter 4 - Exercise (Badge View).swift"; sourceTree = "<group>"; };
+		3636BDE92AB3B28000EFDB2C /* 52 Chapter 6 - Implicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "52 Chapter 6 - Implicit Animations.swift"; sourceTree = "<group>"; };
+		3636BDEB2AB3B63900EFDB2C /* 53 Chapter 6 - Infinite Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53 Chapter 6 - Infinite Animation.swift"; sourceTree = "<group>"; };
 		367596202A9555990084CA92 /* 33 Chapter 4 - Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33 Chapter 4 - Offset.swift"; sourceTree = "<group>"; };
 		367596222A9563D70084CA92 /* 32 Chapter 4 - Frame (Ideal Size).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32 Chapter 4 - Frame (Ideal Size).swift"; sourceTree = "<group>"; };
 		367596242A95657D0084CA92 /* 51 Chapter 5 - Exercise (Table View).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "51 Chapter 5 - Exercise (Table View).swift"; sourceTree = "<group>"; };
@@ -87,9 +95,13 @@
 		3675962A2A956F3B0084CA92 /* 36 Chapter 4 - Clipping and Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36 Chapter 4 - Clipping and Mask.swift"; sourceTree = "<group>"; };
 		3675962C2A9578AE0084CA92 /* 37 Chapter 4 - Stack (Layout).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "37 Chapter 4 - Stack (Layout).swift"; sourceTree = "<group>"; };
 		3675962E2A957FB90084CA92 /* 38 Chapter 4 - Stack (Layout Priority).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "38 Chapter 4 - Stack (Layout Priority).swift"; sourceTree = "<group>"; };
+		3686E2392AB3B7D000E2702C /* 54 Chapter 6 - Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "54 Chapter 6 - Transitions.swift"; sourceTree = "<group>"; };
+		3686E23B2AB3C4F800E2702C /* 55 Chapter 6 - Animation Curves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55 Chapter 6 - Animation Curves.swift"; sourceTree = "<group>"; };
+		3686E23D2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "56 Chapter 6 - Explicit Animations.swift"; sourceTree = "<group>"; };
+		3686E23F2AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "57 Chapter 6 - Custom Animation.swift"; sourceTree = "<group>"; };
+		3686E2412AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58 Chapter 6 - Custom Transition.swift"; sourceTree = "<group>"; };
 		36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingInSwiftUIApp.swift; sourceTree = "<group>"; };
-		36CBCF032A921D2E005A6433 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36CBCF052A921D2F005A6433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36CBCF082A921D2F005A6433 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36CBCF0F2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "09 Chapter 2 - State & Binding 1.swift"; sourceTree = "<group>"; };
@@ -136,29 +148,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36CBCEF52A921D2E005A6433 = {
+		3686E2432AB3D9C800E2702C /* Chapter 1 - Overview */ = {
 			isa = PBXGroup;
 			children = (
-				36CBCF002A921D2E005A6433 /* ThinkingInSwiftUI */,
-				36CBCEFF2A921D2E005A6433 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		36CBCEFF2A921D2E005A6433 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		36CBCF002A921D2E005A6433 /* ThinkingInSwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-				36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */,
-				36CBCF032A921D2E005A6433 /* ContentView.swift */,
 				36CBCF142A921D55005A6433 /* 01 Chapter 1 - View Types.swift */,
 				36CBCF172A921D55005A6433 /* 02 Chapter 1 - Order Matters.swift */,
+			);
+			path = "Chapter 1 - Overview";
+			sourceTree = "<group>";
+		};
+		3686E2442AB3DA0A00E2702C /* Chapter 2 - View Updates */ = {
+			isa = PBXGroup;
+			children = (
 				36CBCF132A921D55005A6433 /* 03 Chapter 2 - Global State.swift */,
 				36CBCF152A921D55005A6433 /* 04 Chapter 2 - Local State.swift */,
 				36CBCF162A921D55005A6433 /* 05 Chapter 2 - Binding.swift */,
@@ -169,6 +170,13 @@
 				36CBCF102A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift */,
 				36CBCF1A2A921D55005A6433 /* 11 Chapter 2 - ObservedObject.swift */,
 				36CBCF192A921D55005A6433 /* 12 Chapter 2 - Exercise (PhotoList).swift */,
+			);
+			path = "Chapter 2 - View Updates";
+			sourceTree = "<group>";
+		};
+		3686E2452AB3DA2300E2702C /* Chapter 3 - Environment */ = {
+			isa = PBXGroup;
+			children = (
 				36CBCF272A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift */,
 				36CBCF292A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift */,
 				36CBCF2B2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift */,
@@ -181,6 +189,13 @@
 				36CBCF3B2A92389F005A6433 /* 22 Chapter 3 - Custom Preference 1.swift */,
 				36CBCF3D2A9246A6005A6433 /* 23 Chapter 3 - Custom Preference 2.swift */,
 				36CBCF3F2A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift */,
+			);
+			path = "Chapter 3 - Environment";
+			sourceTree = "<group>";
+		};
+		3686E2462AB3DA3B00E2702C /* Chapter 4 - Layout */ = {
+			isa = PBXGroup;
+			children = (
 				36CBCF412A92717E005A6433 /* 25 Chapter 4 - Layout (Actual and Proposed Sizes).swift */,
 				36CBCF372A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift */,
 				36CBCF452A927A23005A6433 /* 27 Chapter 4 - Layouot (Shape).swift */,
@@ -203,11 +218,62 @@
 				363570952A97C57F009E80BB /* 44 Chapter 4 - Button Style.swift */,
 				363570972A97C7F9009E80BB /* 45 Chapter 4 - Exercise (Collapsible HStack).swift */,
 				363570992A97D2A4009E80BB /* 46 Chapter 4 - Exercise (Badge View).swift */,
+			);
+			path = "Chapter 4 - Layout";
+			sourceTree = "<group>";
+		};
+		3686E2472AB3DA4F00E2702C /* Chapter 5 - Custom Layout */ = {
+			isa = PBXGroup;
+			children = (
 				36193DF02AA8F1D7006CB875 /* 47 Chapter 5 - Geometry Reader 1.swift */,
 				36193DF22AA8F30F006CB875 /* 48 Chapter 5 - Geometry Reader 2.swift */,
 				36193DF42AA8FDB0006CB875 /* 49 Chapter 5 - Anchors.swift */,
 				36193DF62AA90BB5006CB875 /* 50 Chapter 5 - Custom Layout.swift */,
 				367596242A95657D0084CA92 /* 51 Chapter 5 - Exercise (Table View).swift */,
+			);
+			path = "Chapter 5 - Custom Layout";
+			sourceTree = "<group>";
+		};
+		3686E2482AB3DA7400E2702C /* Chapter 6 - Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3636BDE92AB3B28000EFDB2C /* 52 Chapter 6 - Implicit Animations.swift */,
+				3636BDEB2AB3B63900EFDB2C /* 53 Chapter 6 - Infinite Animation.swift */,
+				3686E2392AB3B7D000E2702C /* 54 Chapter 6 - Transitions.swift */,
+				3686E23B2AB3C4F800E2702C /* 55 Chapter 6 - Animation Curves.swift */,
+				3686E23D2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift */,
+				3686E23F2AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift */,
+				3686E2412AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift */,
+			);
+			path = "Chapter 6 - Animations";
+			sourceTree = "<group>";
+		};
+		36CBCEF52A921D2E005A6433 = {
+			isa = PBXGroup;
+			children = (
+				36CBCF002A921D2E005A6433 /* ThinkingInSwiftUI */,
+				36CBCEFF2A921D2E005A6433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CBCEFF2A921D2E005A6433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CBCEFE2A921D2E005A6433 /* ThinkingInSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CBCF002A921D2E005A6433 /* ThinkingInSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				36CBCF012A921D2E005A6433 /* ThinkingInSwiftUIApp.swift */,
+				3686E2432AB3D9C800E2702C /* Chapter 1 - Overview */,
+				3686E2442AB3DA0A00E2702C /* Chapter 2 - View Updates */,
+				3686E2452AB3DA2300E2702C /* Chapter 3 - Environment */,
+				3686E2462AB3DA3B00E2702C /* Chapter 4 - Layout */,
+				3686E2472AB3DA4F00E2702C /* Chapter 5 - Custom Layout */,
+				3686E2482AB3DA7400E2702C /* Chapter 6 - Animations */,
 				36193DF82AA90E6F006CB875 /* xx Chapter x - Template copy.swift */,
 				36CBCF052A921D2F005A6433 /* Assets.xcassets */,
 				36CBCF072A921D2F005A6433 /* Preview Content */,
@@ -305,26 +371,30 @@
 				36CBCF482A927BB9005A6433 /* 31 Chapter 4 - Frame (Fixed Size).swift in Sources */,
 				36CBCF222A921D55005A6433 /* 05 Chapter 2 - Binding.swift in Sources */,
 				36CBCF302A922D5F005A6433 /* 17 Chapter 3 - Custom Environment Values 1.swift in Sources */,
+				3636BDEC2AB3B63900EFDB2C /* 53 Chapter 6 - Infinite Animation.swift in Sources */,
 				3675962F2A957FB90084CA92 /* 38 Chapter 4 - Stack (Layout Priority).swift in Sources */,
 				363570942A97C3FA009E80BB /* 43 Chapter 4 - Organizing Layout (View Modifiers).swift in Sources */,
 				36CBCF342A92321C005A6433 /* 19 Chapter 3 - Custom Environment Values 3.swift in Sources */,
 				36CBCF382A923484005A6433 /* 26 Chapter 4 - Layout (Path).swift in Sources */,
 				363570982A97C7F9009E80BB /* 45 Chapter 4 - Exercise (Collapsible HStack).swift in Sources */,
-				36CBCF042A921D2E005A6433 /* ContentView.swift in Sources */,
 				36CBCF282A922276005A6433 /* 13 Chapter 3 - Environment Modifier 1.swift in Sources */,
 				36CBCF3C2A9238A0005A6433 /* 22 Chapter 3 - Custom Preference 1.swift in Sources */,
 				36CBCF442A92760C005A6433 /* 28 Chapter 4 - Layout (Rotated Shape).swift in Sources */,
 				3635709A2A97D2A4009E80BB /* 46 Chapter 4 - Exercise (Badge View).swift in Sources */,
 				36CBCF4C2A928848005A6433 /* 30 Chapter 4 - Layout (Text).swift in Sources */,
+				3686E2402AB3D7C900E2702C /* 57 Chapter 6 - Custom Animation.swift in Sources */,
 				36CBCF4A2A927E9E005A6433 /* 29 Chapter 4 - Layout (Image).swift in Sources */,
 				367596292A956B260084CA92 /* 35 Chapter 4 - Overlay and Background.swift in Sources */,
+				3686E23C2AB3C4F800E2702C /* 55 Chapter 6 - Animation Curves.swift in Sources */,
 				36193DF32AA8F30F006CB875 /* 48 Chapter 5 - Geometry Reader 2.swift in Sources */,
 				36CBCF242A921D55005A6433 /* 07 Chapter 2 - ViewBuilders.swift in Sources */,
 				367596272A95686E0084CA92 /* 34 Chapter 4 - Padding.swift in Sources */,
+				3686E2422AB3D96200E2702C /* 58 Chapter 6 - Custom Transition.swift in Sources */,
 				36CBCF2A2A9225C7005A6433 /* 14 Chapter 3 - Environment Modifier 2.swift in Sources */,
 				3675962B2A956F3B0084CA92 /* 36 Chapter 4 - Clipping and Mask.swift in Sources */,
 				3635708E2A97BD3E009E80BB /* 40 Chapter 4 - Slack (Custom Alignment).swift in Sources */,
 				36CBCF362A92340A005A6433 /* 20 Chapter 3 - Environment Object.swift in Sources */,
+				3686E23A2AB3B7D000E2702C /* 54 Chapter 6 - Transitions.swift in Sources */,
 				36CBCF1D2A921D55005A6433 /* 08 Chapter 2 - Binding without property wrappers.swift in Sources */,
 				36193DF12AA8F1D7006CB875 /* 47 Chapter 5 - Geometry Reader 1.swift in Sources */,
 				367596212A9555990084CA92 /* 33 Chapter 4 - Offset.swift in Sources */,
@@ -337,6 +407,7 @@
 				36CBCF402A924F37005A6433 /* 24 Chapter 3 - Exercise (Knob Color).swift in Sources */,
 				3675962D2A9578AE0084CA92 /* 37 Chapter 4 - Stack (Layout).swift in Sources */,
 				363570902A97C1DC009E80BB /* 41 Chapter 4 - Organizing Layout (Extensions).swift in Sources */,
+				3636BDEA2AB3B28000EFDB2C /* 52 Chapter 6 - Implicit Animations.swift in Sources */,
 				36CBCF212A921D55005A6433 /* 04 Chapter 2 - Local State.swift in Sources */,
 				36CBCF1B2A921D55005A6433 /* 09 Chapter 2 - State & Binding 1.swift in Sources */,
 				36193DF92AA90E6F006CB875 /* xx Chapter x - Template copy.swift in Sources */,
@@ -346,6 +417,7 @@
 				36CBCF2C2A922793005A6433 /* 15 Chapter 3 - Environment Modifier 3.swift in Sources */,
 				36193DF72AA90BB5006CB875 /* 50 Chapter 5 - Custom Layout.swift in Sources */,
 				36CBCF1C2A921D55005A6433 /* 10 Chapter 2 - State & Binding 2.swift in Sources */,
+				3686E23E2AB3D29700E2702C /* 56 Chapter 6 - Explicit Animations.swift in Sources */,
 				36CBCF322A922E80005A6433 /* 18 Chapter 3 - Custom Environment Values 2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

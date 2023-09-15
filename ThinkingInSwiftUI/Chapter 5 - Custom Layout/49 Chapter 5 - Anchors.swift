@@ -27,7 +27,9 @@ struct ContentView49: View {
         HStack {
             ForEach(tabs.indices, id: \.self) { tabIndex in
                 Button(action: {
-                    self.selectedTabIndex = tabIndex
+                    withAnimation {
+                        self.selectedTabIndex = tabIndex
+                    }
                 }, label: { self.tabs[tabIndex] })
                 .anchorPreference(key: BoundsKey.self, value: .bounds, transform: {
                     anchor in
@@ -46,7 +48,6 @@ struct ContentView49: View {
                         height: proxy.size.height,
                         alignment: .bottomLeading
                     )
-                    .animation(.default)
             }
         })
     }
